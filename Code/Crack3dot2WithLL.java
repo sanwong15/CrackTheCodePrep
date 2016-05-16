@@ -1,4 +1,4 @@
-/%
+/*
 San Wong
 Crack The Code 3.2 (Including Stack implementation with LinkedList)
 
@@ -8,7 +8,7 @@ also has a function min which returns the minimum element?
 
  Brainstorm: when adding new element to the stack. Keep track to the min value
  when a new min is found. Make sure pushing the old min value
-%/
+*/
 
 public class LinkedListStack implements Stack{
 	private Node top;
